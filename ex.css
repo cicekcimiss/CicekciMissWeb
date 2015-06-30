@@ -1,0 +1,132 @@
+body {
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+table {
+    background: #e8dede;
+    background-size: 100% 100%;
+	border-radius: 20px;
+	-webkit-box-shadow: 0px -2px 30px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px -2px 30px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px -2px 30px 0px rgba(0,0,0,0.75);
+}
+
+.verticalLine {
+    border-right: thin solid grey;
+	height: 98.88%;
+	margin-right: 10px;
+}
+
+footer {
+	background: #e8dede;
+	background-size: 100% 100%;
+	padding: 20px;
+	margin-bottom: 0px;
+	margin-top: 5px;	
+	-webkit-box-shadow: inset 0px 10px 11px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 10px 11px 0px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 10px 11px 0px rgba(0,0,0,0.75);
+}
+
+.ayak{
+	background-color: #e8dede;
+
+	width: 100%;
+	height: 20%;
+	-webkit-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.75);
+}
+
+th#menu img{	
+	position: relative;
+	width: 170px;
+	height: 250px;
+	margin: 5px 5px 0 5px;
+	background-color: #fbb8f1;
+	padding: 20px 20px 50px 20px;
+	display: block;
+	-webkit-transition: ease 0.4s;
+}
+
+th#menu img:hover{
+	display: block;
+	height: 210px;
+	background-color: white;
+	padding-bottom: 90px;
+	box-shadow: 8px 8px 8px #888888;
+}
+
+
+th#yan img{
+	width: 150px;
+	height: 200px;
+	margin: 15px 0 15px 0;
+
+}
+
+ul, li{
+	margin:5px;
+	padding:0;
+	list-style: none;
+}
+
+.column{
+    float: left;
+    margin: 0 0 0 0;
+}
+
+.box{
+	background-color: #fbb8f1;
+	width:100%;
+	height:40px;
+	border:1px solid #fbb8f1;
+	-webkit-box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.75);
+}
+
+.sagmenu{
+	width:90%;
+	border:1px solid #ffffff;
+	background-color: #ffffff;
+	-webkit-box-shadow: inset 0px -2px 15px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px -2px 15px 0px rgba(0,0,0,0.75);
+	box-shadow: inset 0px -2px 15px 0px rgba(0,0,0,0.75);
+}
+
+.reklam {
+	color: #ffffff;
+        position: realtive;
+	bottom: 11px;
+	font-family: Raleway, sans-serif;
+	font-size: 18px;
+}
+
+#wrapper .text {
+	color: black;
+	position:relative;
+	bottom:95px;
+	left:0px;
+	visibility:hidden;
+	font-family: Agency FB;
+	font-size: 25px;
+}
+
+#wrapper:hover .text {
+	visibility:visible;
+}
+
+.alt{
+	visibility:hidden;
+}
+
+.alt:hover{
+	visibility:visible;
+}
+
+
+

@@ -1,0 +1,99 @@
+.cicek{
+	width: 290px;
+	height: 355px;
+	background-color: #7e8491;
+	padding: 0px 5px 5px 5px;
+}
+
+.siparis{
+	float: center;
+	color: #ffffff;
+}
+
+.cicekismi{
+	width: 300px;
+	height: 400px;
+	-webkit-box-shadow: 0px 2px 15px 0px rgba(0,0,0,1);
+	-moz-box-shadow: 0px 2px 15px 0px rgba(0,0,0,1);
+	box-shadow: 0px 2px 15px 0px rgba(0,0,0,1);
+}
+
+.kutu{
+	background-color: #7e8491;
+	width: 300px;
+	height: 400px;	
+    border-radius: 15px;
+	margin: 0px 40px 0px 40px;
+	-webkit-box-shadow: 0px 2px 15px 0px rgba(0,0,0,1);
+	-moz-box-shadow: 0px 2px 15px 0px rgba(0,0,0,1);
+	box-shadow: 0px 2px 15px 0px rgba(0,0,0,1);
+}
+
+.yazi{
+	font-family: Agency FB;
+	font-size: 20px;
+	text-align: center;
+}
+
+.bosluk{
+	background-color: #e8dede;
+	width: 220px;
+	height: 30px;
+	border-radius: 10px;
+	font-family: Arial;
+	font-size: 15px;
+	text-align: center;
+	-webkit-transition: ease 0.3s;
+}
+
+.bosluk:hover{
+	-moz-box-shadow: 0 0 10px #ccc; 
+	-webkit-box-shadow: 0 0 10px #ccc; 
+	box-shadow: 0 0 10px #ffffff;
+}
+
+.buton{
+	background-color: #912222;
+	color: white;
+	width: 175px;
+	height: 30px;
+	border-radius: 10px;
+	font-family: Agency FB;
+	font-size: 20px;
+	-webkit-transition: ease 0.3s;
+}
+
+:hover.buton{
+	background-color: #7399e9;
+}
+
+#baslik{
+	background-color: #912222;
+	width: 300px;
+	height: 40px;
+}
+
+.head{
+	color: #ffffff;
+	position:relative;
+	top: 9px;
+	font-family: Arial;
+	font-size: 22px;
+}
+
+.bilgi{
+	background-color: #7e8491;
+	width: 300px;
+	height: 400px;	
+    border-radius: 15px;
+	-webkit-box-shadow: 0px 2px 15px 0px rgba(0,0,0,1);
+	-moz-box-shadow: 0px 2px 15px 0px rgba(0,0,0,1);
+	box-shadow: 0px 2px 15px 0px rgba(0,0,0,1);
+}
+
+.ozellik{
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 15px;
+	text-align: center;
+}
