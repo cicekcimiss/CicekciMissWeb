@@ -1,10 +1,26 @@
 
 <?php
 $json = array();
+$kod = $_POST["kod"];
+
+if($kod==0)
+{
+    $ad = $_POST["ad"];
+    $telefon = $_POST["telefon"];
+    $adres = $_POST["soyad"];
+    $email = $_POST["email"];
+    include_once 'db_functions.php';
+    
+    $db = new DB_Functions();
 
 
-if (isset($_POST["alan_not"]) && isset($_POST["alan_adres"]) && isset($_POST["alan_soyad"]) && isset($_POST["alan_ad"]) && isset($_POST["kod"]) && isset($_POST["ad"]) && isset($_POST["soyad"]) && isset($_POST["telefon"])&& isset($_POST["zaman"])) {
-    $kod = $_POST["kod"];
+    $res = $db->storeCorporateUser($ad, $telefon, $adres, $email);
+    $subject = "Ad=" . $ad  . " \nTelefon = " . $telefon ." \nAdres = ".$adres. " \nE-mail= " . $email;
+ 
+    $success = mb_send_mail("admin@cicekbornova.com", "Urumsal_talep", $subject, "admin@cicekbornova.com");
+
+}else{
+    
     $ad = $_POST["ad"];
     $soyad = $_POST["soyad"];
     $telefon = $_POST["telefon"];
