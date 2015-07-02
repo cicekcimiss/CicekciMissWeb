@@ -142,5 +142,43 @@ ul, li{
 	visibility:visible;
 }
 
+.posta{
+	display: block;
+	position: relative;
+	width: 60px;
+	height: 60px;
+	margin-right: 100px;
+	margin-bottom: -60px;
+	background-image: url(posta.png);
+	background-size: 100% 100%;
+	-webkit-transition: 0.3s;
+}
+
+.posta:hover{
+	background-image: url(posta2.png);
+	background-color: #e8dede;
+	width: 150px;
+	background-size: 100% 100%;
+}
+
+.telefon{
+	display: block;
+	position: relative;
+	width: 60px;
+	height: 60px;
+	margin-right: 40px;
+	margin-bottom: 0px;
+	background-image: url(telefon.png);
+	background-size: 100% 100%;
+	-webkit-transition: 0.3s;
+}
+
+.telefon:hover{
+	
+	background-image: url(telefon2.png);
+	background-color: #e8dede;
+	width: 150px;
+	background-size: 100% 100%;
+}
 
 
