@@ -17,7 +17,7 @@ if($kod==0)
     $res = $db->storeCorporateUser($ad, $telefon, $adres, $email);
     $subject = "Ad=" . $ad  . " \nTelefon = " . $telefon ." \nAdres = ".$adres. " \nE-mail= " . $email;
  
-    $success = mb_send_mail("admin@cicekbornova.com", "Urumsal_talep", $subject, "admin@cicekbornova.com");
+    $success = mb_send_mail("admin@cicekbornova.com", "Kurumsal_talep", $subject, "admin@cicekbornova.com");
 
 }else{
     
