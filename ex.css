@@ -100,10 +100,24 @@ ul, li{
 
 .reklam {
 	color: #ffffff;
-        position: realtive;
+    position: relative;
 	bottom: 11px;
 	font-family: Raleway, sans-serif;
 	font-size: 18px;
+}
+
+#tagcloud {
+	margin-top:50px;
+}
+
+.box-musteri {
+	background-color: #fbb8f1;
+	width:100%;
+	height:60px;
+	border:1px solid #fbb8f1;
+	-webkit-box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.75);
 }
 
 #wrapper .text {
