@@ -22,6 +22,7 @@ table {
 
 footer {
 	background: #e8dede;
+	height: 270px;
 	background-size: 100% 100%;
 	padding: 20px;
 	margin-bottom: 0px;
@@ -181,4 +182,34 @@ ul, li{
 	background-size: 100% 100%;
 }
 
+.altkisim{
+	margin-left: 3%;
+	width:94%;
+	height: 100%;
+	-webkit-box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.75);
+}
 
+.fkm{
+	background-color: #cecbcb;
+	float: left;
+	margin: 2% 0% 0% 8%;
+	width: 270px;
+	height: 85%;
+	-webkit-box-shadow: 0px -2px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px -2px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px -2px 5px 0px rgba(0,0,0,0.75);
+}
+
+.altbaslik{
+	color: #600e14;
+	font-family: Consolas;
+	font-size: 19px;
+}
+
+.altmenu{
+	color: #100744;
+	font-family: Consolas;
+	font-size: 14px;
+}
