@@ -1,0 +1,25 @@
+.bilgiler{
+	margin: 2% 5% 2% 5%; 
+	background-color: #cecbcb;
+}
+
+.yazi{
+	padding: 5px 0px 5px 0px;
+	font-size: 17px;
+}
+
+.baslikyaz{
+	color: #600e14;
+}
+
+.bolum{
+	padding-bottom: 10px;
+	-webkit-transition: ease 0.5s;
+}
+
+.bolum:hover{
+	background-color: #ffd6f8;
+	-webkit-box-shadow: 0px -2px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px -2px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px -2px 5px 0px rgba(0,0,0,0.75);
+}
