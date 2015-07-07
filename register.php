@@ -2,6 +2,9 @@
 <?php
 $json = array();
 $kod = $_POST["kod"];
+include_once 'db_functions.php';
+    
+$db = new DB_Functions();
 
 if($kod==0)
 {
@@ -9,9 +12,7 @@ if($kod==0)
     $telefon = $_POST["telefon"];
     $adres = $_POST["adres"];
     $email = $_POST["email"];
-    include_once 'db_functions.php';
     
-    $db = new DB_Functions();
 
 
     $res = $db->storeCorporateUser($ad, $telefon, $adres, $email);
@@ -29,10 +30,7 @@ if($kod==0)
     $alan_soyad = $_POST["alan_soyad"];
     $alan_adres = $_POST["alan_adres"];
     $alan_not = $_POST["alan_not"];
-    include_once './db_functions.php';
-
-
-    $db = new DB_Functions();
+    
 
 
     $res = $db->storeUser($ad, $soyad, $telefon, $kod, $zaman, $alan_ad, $alan_soyad, $alan_adres, $alan_not);

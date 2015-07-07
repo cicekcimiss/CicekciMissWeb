@@ -43,12 +43,12 @@ class DB_Functions {
     
      public function storeCorporateUser($ad, $telefon, $adres, $email) {
         // insert user into database
-        $result = mysql_query("INSERT INTO kurumsal(isim,telefon,adres,e-mail) VALUES('$ad','$telefon','$adres','$email'");
+        $result = mysql_query("INSERT INTO kurumsal(isim, telefon, adres, e-mail, created_at) VALUES('$ad','$telefon','$adres','$email',NOW()");
         // check for successful store
         if ($result) {
             // get user details
             $siraNo = mysql_insert_id(); // last inserted id
-            $result = mysql_query("SELECT * FROM kurumsal WHERE siraNo = $siraNo") or die(mysql_error());
+            $result = mysql_query("SELECT * FROM kurumsal WHERE sira = $siraNo") or die(mysql_error());
             // return user details
             if (mysql_num_rows($result) > 0) {
                 return mysql_fetch_array($result);
