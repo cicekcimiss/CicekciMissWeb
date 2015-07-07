@@ -7,7 +7,7 @@ if($kod==0)
 {
     $ad = $_POST["ad"];
     $telefon = $_POST["telefon"];
-    $adres = $_POST["soyad"];
+    $adres = $_POST["adres"];
     $email = $_POST["email"];
     include_once 'db_functions.php';
     
