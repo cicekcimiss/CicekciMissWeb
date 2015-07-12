@@ -124,11 +124,11 @@ ul, li{
 #wrapper .text {
 	color: black;
 	position:relative;
-	bottom:95px;
+	bottom:85px;
 	left:0px;
 	visibility:hidden;
-	font-family: Mistral;
-	font-size: 25px;
+	font-family: SketchFlow Print;
+	font-size: 19px;
 }
 
 #wrapper:hover .text {
